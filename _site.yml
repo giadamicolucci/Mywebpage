@@ -1,0 +1,13 @@
+name: "mywebpage"  
+author: "Giada Micolucci"  
+output_dir: "docs"  
+output:  
+  html_document:  
+    self_contained: no  
+    theme: cosmo
+    toc: true
+navbar:  
+  title: "Giada Micolucci"
+  left: # alignment of the links on the navbar
+    - text: "Text" # text to appear on the Navbar at the top of the page
+      href: text.html # link to the new page 
